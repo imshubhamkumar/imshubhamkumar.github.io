@@ -31,3 +31,78 @@ body {
     text-wrap: balance;
   }
 }
+
+.header-section {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  color: aquamarine;
+}
+
+.navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  color: rgb(7, 255, 172);
+}
+
+.header-btn:hover {
+  background-color: rgb(5, 109, 74);
+  color: #ffffff;
+}
+
+.btn {
+  width: fit-content;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.intro-container {
+  position: relative;
+  top: 45%;
+  transform: translate(0, -36%);
+  height: fit-content;
+}
+
+.intro-container .title-container {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.intro-container .intro {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.intro-container .name-container {
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.image-background {
+  position: relative;
+  height: 600px;
+  width: 400px;
+  background-color: aquamarine;
+  border-radius: 80px;
+}
+
+.header-btn-resume {
+  color: #ffffff;
+  background-color: rgb(3, 85, 58);
+}
+
+a svg {
+  width: 20px;
+}
+
+.about-me {
+  background-color: #000000;
+  color: #ffffff;
+}
